@@ -1,4 +1,4 @@
--- CinemaDb — თქვენ აკეთებთ
+-- CinemaDb — საშინაო დავალება
 CREATE DATABASE CinemaDb;
 GO
 USE CinemaDb;

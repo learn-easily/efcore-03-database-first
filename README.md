@@ -1,12 +1,12 @@
 # EF Core — Code First vs Database First · ლექცია 2 / 2
 
-Database First პრაქტიკაში: მოკლე გახსენება, შემდეგ StoreDb (SQL სკრიპტი) → `Scaffold-DbContext` → გენერირებული Entity-ები და DbContext → გამოყენება → ბაზის ცვლილება, `-Force` და `partial` კლასები. პრაქტიკა: LibraryDb (ერთად), CinemaDb (დამოუკიდებლად). Console App, .NET 10, SQL Server. ანიმაციური HTML პრეზენტაცია + ლექტორის სცენარი.
+Database First პრაქტიკაში: მოკლე გახსენება, შემდეგ StoreDb (SQL სკრიპტი) → `Scaffold-DbContext` → გენერირებული Entity-ები და DbContext → გამოყენება → ბაზის ცვლილება, `-Force` და `partial` კლასები. პრაქტიკა: LibraryDb (სტუდენტები, კლასში), CinemaDb (საშინაო). Console App, .NET 10, SQL Server. ანიმაციური HTML პრეზენტაცია + ლექტორის სცენარი.
 
 | ფაილი | რა არის |
 |---|---|
 | `index.html` | პრეზენტაცია (32 სლაიდი) |
 | `script.html` | ლექციის სცენარი — წასაკითხად / დასაბეჭდად |
-| `sql/` | ბაზების სკრიპტები: `StoreDb` (დემო), `LibraryDb` (ერთად), `CinemaDb` (დამოუკიდებლად) + `*-change.sql` (DBA-ს ცვლილებები) |
+| `sql/` | ბაზების სკრიპტები: `StoreDb` (დემო), `LibraryDb` (სტუდენტები, კლასში), `CinemaDb` (საშინაო) + `*-change.sql` (DBA-ს ცვლილებები) |
 | `deck/` | წყარო: სლაიდები და შენიშვნები (`df.html`), ძრავი (`engine.*`), ბილდი (`build_df.py`) |
 
 ## Scaffold-ის ბრძანება

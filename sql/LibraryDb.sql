@@ -1,4 +1,4 @@
--- LibraryDb — ერთად ვაკეთებთ
+-- LibraryDb — სტუდენტები აკეთებენ კლასში
 CREATE DATABASE LibraryDb;
 GO
 USE LibraryDb;
